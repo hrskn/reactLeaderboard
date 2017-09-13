@@ -1,0 +1,54 @@
+html, body {
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: sans-serif;
+}
+.App {
+  margin: 0 auto;
+ 
+}
+#recent, #alltime {
+  text-align: center;
+}
+#sort:hover  {
+  color: #006400;
+  cursor: pointer;
+}
+td, th {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+
+}
+#profilePic {
+  vertical-align: middle;
+  display: inline-block;
+
+}
+thead {
+ background: rgba(221, 221, 221, 0.65);
+
+}
+.fcclogo img {
+  display: block;
+  margin-right: auto;
+  width: 20%;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+}
+nav {
+  width: 100%;
+  background: #006400;
+  margin-bottom: 1em;
+}
+#leaderboard {
+  color: #f5f5f5;
+  background: #006400;
+}
